@@ -1,0 +1,13 @@
+# Language detection rules
+# Text file normalization
+*.yaml linguist-detectable=false
+* text=auto eol=lf
+*.min.css linguist-generated
+*.html linguist-vendored
+*.jpeg binary   
+*.sh text eol=lf
+src/**/*.ts linguist-detectable
+
+build/* linguist-vendored
+
+# eof ab2e9414
